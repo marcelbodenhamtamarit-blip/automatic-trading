@@ -25,9 +25,22 @@ from datetime import datetime
 # =============================================================================
 
 CONFIG = {
-    # Qué vigilar. Índices: ^GSPC (S&P500), ^NDX (Nasdaq100), ^AXJO (ASX200).
-    # Acciones: AAPL, MSFT, etc. Añade o quita libremente.
-    "tickers": ["AAPL", "MSFT", "NVDA", "^GSPC", "^NDX"],
+    "tickers": [
+        # --- Tecnología (lo que ya tenías) ---
+        "AAPL", "MSFT", "NVDA", "GOOGL", "AMZN",
+        # --- Financieras ---
+        "JPM", "BAC", "V",
+        # --- Salud ---
+        "JNJ", "UNH", "PFE",
+        # --- Energía ---
+        "XOM", "CVX",
+        # --- Consumo básico (defensivas, se mueven distinto) ---
+        "PG", "KO", "WMT",
+        # --- Industriales ---
+        "CAT", "BA",
+        # --- Índices (referencia de mercado) ---
+        "^GSPC", "^NDX", "^DJI", "^RUT",
+    ],
 
     # Temporalidad. Para medio plazo: "1d" (diario) es el estándar.
     "interval": "1d",
