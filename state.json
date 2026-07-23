@@ -1,23 +1,15 @@
 {
-  "equity": 9897.081975028,
+  "equity": 9791.7643682265,
   "start_equity": 10000.0,
   "peak_equity": 10000.0,
   "created": "2026-07-06",
-  "last_run": "2026-07-22",
+  "last_run": "2026-07-23",
   "open_positions": {
     "AAPL": {
       "entry": 312.66,
       "sl": 299.72,
       "tp": 338.54,
       "shares": 7.728,
-      "risk_amount": 100.0,
-      "entry_date": "2026-07-06"
-    },
-    "^GSPC": {
-      "entry": 7537.43,
-      "sl": 7397.0,
-      "tp": 7818.28,
-      "shares": 0.7121,
       "risk_amount": 100.0,
       "entry_date": "2026-07-06"
     },
@@ -44,6 +36,14 @@
       "shares": 52.9256,
       "risk_amount": 98.97,
       "entry_date": "2026-07-20"
+    },
+    "JNJ": {
+      "entry": 259.27,
+      "sl": 250.16,
+      "tp": 277.48,
+      "shares": 10.7484,
+      "risk_amount": 97.92,
+      "entry_date": "2026-07-23"
     }
   },
   "closed_trades": [
@@ -57,6 +57,17 @@
       "outcome": "SL",
       "pnl": -102.92,
       "equity_after": 9897.08
+    },
+    {
+      "ticker": "^GSPC",
+      "entry_date": "2026-07-06",
+      "exit_date": "2026-07-23",
+      "entry": 7537.43,
+      "exit": 7397.0,
+      "shares": 0.7121,
+      "outcome": "SL",
+      "pnl": -105.32,
+      "equity_after": 9791.76
     }
   ],
   "equity_history": [
@@ -79,6 +90,11 @@
       "date": "2026-07-22",
       "cash_equity": 9897.08,
       "mtm_equity": 10074.79
+    },
+    {
+      "date": "2026-07-23",
+      "cash_equity": 9791.76,
+      "mtm_equity": 9930.84
     }
   ]
 }
