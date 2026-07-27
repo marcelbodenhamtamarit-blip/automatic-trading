@@ -1,26 +1,10 @@
 {
-  "equity": 9791.7643682265,
+  "equity": 9887.379435795501,
   "start_equity": 10000.0,
   "peak_equity": 10000.0,
   "created": "2026-07-06",
-  "last_run": "2026-07-24",
+  "last_run": "2026-07-27",
   "open_positions": {
-    "AAPL": {
-      "entry": 312.66,
-      "sl": 299.72,
-      "tp": 338.54,
-      "shares": 7.728,
-      "risk_amount": 100.0,
-      "entry_date": "2026-07-06"
-    },
-    "NVDA": {
-      "entry": 212.5,
-      "sl": 201.43,
-      "tp": 234.64,
-      "shares": 9.0334,
-      "risk_amount": 100.0,
-      "entry_date": "2026-07-15"
-    },
     "JPM": {
       "entry": 343.15,
       "sl": 331.47,
@@ -44,6 +28,22 @@
       "shares": 10.7484,
       "risk_amount": 97.92,
       "entry_date": "2026-07-23"
+    },
+    "AAPL": {
+      "entry": 336.91,
+      "sl": 324.7,
+      "tp": 361.33,
+      "shares": 8.0978,
+      "risk_amount": 98.87,
+      "entry_date": "2026-07-27"
+    },
+    "UNH": {
+      "entry": 417.64,
+      "sl": 399.68,
+      "tp": 453.56,
+      "shares": 5.5052,
+      "risk_amount": 98.87,
+      "entry_date": "2026-07-27"
     }
   },
   "closed_trades": [
@@ -68,6 +68,28 @@
       "outcome": "SL",
       "pnl": -105.32,
       "equity_after": 9791.76
+    },
+    {
+      "ticker": "AAPL",
+      "entry_date": "2026-07-06",
+      "exit_date": "2026-07-27",
+      "entry": 312.66,
+      "exit": 338.54,
+      "shares": 7.728,
+      "outcome": "TP",
+      "pnl": 197.48,
+      "equity_after": 9989.25
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date": "2026-07-15",
+      "exit_date": "2026-07-27",
+      "entry": 212.5,
+      "exit": 201.43,
+      "shares": 9.0334,
+      "outcome": "SL",
+      "pnl": -101.87,
+      "equity_after": 9887.38
     }
   ],
   "equity_history": [
@@ -100,6 +122,11 @@
       "date": "2026-07-24",
       "cash_equity": 9791.76,
       "mtm_equity": 10114.77
+    },
+    {
+      "date": "2026-07-27",
+      "cash_equity": 9887.38,
+      "mtm_equity": 10161.41
     }
   ]
 }
