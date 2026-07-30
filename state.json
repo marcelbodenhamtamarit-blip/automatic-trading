@@ -3,7 +3,7 @@
   "start_equity": 10000.0,
   "peak_equity": 10000.0,
   "created": "2026-07-06",
-  "last_run": "2026-07-29",
+  "last_run": "2026-07-30",
   "open_positions": {
     "JPM": {
       "entry": 343.15,
@@ -137,6 +137,11 @@
       "date": "2026-07-29",
       "cash_equity": 9887.38,
       "mtm_equity": 10028.92
+    },
+    {
+      "date": "2026-07-30",
+      "cash_equity": 9887.38,
+      "mtm_equity": 9978.46
     }
   ]
 }
