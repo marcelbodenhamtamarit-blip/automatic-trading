@@ -1,9 +1,9 @@
 {
-  "equity": 9684.703358034501,
+  "equity": 9879.877357782501,
   "start_equity": 10000.0,
   "peak_equity": 10000.0,
   "created": "2026-07-06",
-  "last_run": "2026-08-10",
+  "last_run": "2026-08-11",
   "open_positions": {
     "JPM": {
       "entry": 343.15,
@@ -12,14 +12,6 @@
       "shares": 8.5616,
       "risk_amount": 100.0,
       "entry_date": "2026-07-17"
-    },
-    "BAC": {
-      "entry": 60.42,
-      "sl": 58.55,
-      "tp": 64.17,
-      "shares": 52.9256,
-      "risk_amount": 98.97,
-      "entry_date": "2026-07-20"
     },
     "JNJ": {
       "entry": 259.27,
@@ -44,6 +36,22 @@
       "shares": 3.8615,
       "risk_amount": 96.85,
       "entry_date": "2026-08-05"
+    },
+    "BAC": {
+      "entry": 64.0,
+      "sl": 62.44,
+      "tp": 67.12,
+      "shares": 63.3325,
+      "risk_amount": 98.8,
+      "entry_date": "2026-08-11"
+    },
+    "UNH": {
+      "entry": 402.19,
+      "sl": 384.95,
+      "tp": 436.67,
+      "shares": 5.7308,
+      "risk_amount": 98.8,
+      "entry_date": "2026-08-11"
     }
   },
   "closed_trades": [
@@ -112,6 +120,17 @@
       "outcome": "SL",
       "pnl": -101.12,
       "equity_after": 9684.7
+    },
+    {
+      "ticker": "BAC",
+      "entry_date": "2026-07-20",
+      "exit_date": "2026-08-11",
+      "entry": 60.42,
+      "exit": 64.17,
+      "shares": 52.9256,
+      "outcome": "TP",
+      "pnl": 195.17,
+      "equity_after": 9879.88
     }
   ],
   "equity_history": [
@@ -194,6 +213,11 @@
       "date": "2026-08-10",
       "cash_equity": 9684.7,
       "mtm_equity": 10104.06
+    },
+    {
+      "date": "2026-08-11",
+      "cash_equity": 9879.88,
+      "mtm_equity": 10084.01
     }
   ]
 }
