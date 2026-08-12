@@ -39,6 +39,16 @@ CONFIG = {
         "PG", "KO", "WMT",
         # --- Industriales ---
         "CAT", "BA",
+        # --- Más tecnología ---
+        "META", "TSLA", "AMD", "CRM", "ADBE",
+        # --- Más financieras ---
+        "MA", "GS", "WFC",
+        # --- Más salud ---
+        "LLY", "ABBV",
+        # --- Más consumo ---
+        "COST", "MCD",
+        # --- Más energía/industriales ---
+        "NEE", "HON",
         # --- Índices (referencia de mercado) ---
         "^GSPC", "^NDX", "^DJI", "^RUT",
     ],
