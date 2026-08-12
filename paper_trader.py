@@ -277,7 +277,7 @@ def build_summary(state, events, today, mtm, bullish, cfg):
     regime = "ALCISTA" if bullish else "BAJISTA"
 
     lines = [
-        f"Marcels Paper Trading | {today} | Regimen: {regime}",
+                    f"Marcel Trading Bot | {today} | Regimen: {regime}",
         f"Cuenta (mercado): ${mtm:,.2f} ({ret_mtm:+.1f}%) | Efectivo: ${eq:,.2f}",
         f"Riesgo en uso: {risk_used:.1f}% de {cfg['max_total_risk']*100:.0f}% | "
         f"Abiertas: {n_open} | Cerradas: {n_closed}",
