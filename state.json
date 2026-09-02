@@ -1,18 +1,10 @@
 {
-  "equity": 9667.826303433003,
+  "equity": 9860.670065583003,
   "start_equity": 10000.0,
   "peak_equity": 10076.752848062502,
   "created": "2026-07-06",
-  "last_run": "2026-09-01",
+  "last_run": "2026-09-02",
   "open_positions": {
-    "JNJ": {
-      "entry": 259.27,
-      "sl": 250.16,
-      "tp": 277.48,
-      "shares": 10.7484,
-      "risk_amount": 97.92,
-      "entry_date": "2026-07-23"
-    },
     "AAPL": {
       "entry": 308.91,
       "sl": 294.1,
@@ -44,6 +36,22 @@
       "shares": 6.4013,
       "risk_amount": 97.68,
       "entry_date": "2026-08-20"
+    },
+    "JPM": {
+      "entry": 356.22,
+      "sl": 347.56,
+      "tp": 373.54,
+      "shares": 11.3865,
+      "risk_amount": 98.61,
+      "entry_date": "2026-09-02"
+    },
+    "JNJ": {
+      "entry": 275.21,
+      "sl": 266.75,
+      "tp": 292.14,
+      "shares": 11.6556,
+      "risk_amount": 98.61,
+      "entry_date": "2026-09-02"
     }
   },
   "closed_trades": [
@@ -178,6 +186,17 @@
       "outcome": "SL",
       "pnl": -100.59,
       "equity_after": 9667.83
+    },
+    {
+      "ticker": "JNJ",
+      "entry_date": "2026-07-23",
+      "exit_date": "2026-09-02",
+      "entry": 259.27,
+      "exit": 277.48,
+      "shares": 10.7484,
+      "outcome": "TP",
+      "pnl": 192.84,
+      "equity_after": 9860.67
     }
   ],
   "equity_history": [
@@ -335,6 +354,11 @@
       "date": "2026-09-01",
       "cash_equity": 9667.83,
       "mtm_equity": 9901.51
+    },
+    {
+      "date": "2026-09-02",
+      "cash_equity": 9860.67,
+      "mtm_equity": 10141.48
     }
   ]
 }
